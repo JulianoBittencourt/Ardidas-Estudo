@@ -1,0 +1,66 @@
+.navbar{
+    height: 96px;
+    width: 100%;
+    background: linear-gradient(to right,green,white,red);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+
+
+}
+.icones{
+    height: 64px;
+    width: auto;
+    margin-top: 9px;
+
+}
+
+section{
+    background-image: url(../IMG/alimento-almoco-burrito-461198.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color:orange  ;  
+    font-family: sans-serif;
+    font-size: 70pt;
+    font-weight: 700;
+   
+ 
+  }
+ .prod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+  
+ }
+ .prod div{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 3px 3px 15px white;
+    cursor: -moz-grab;
+    transition: .3s;
+    cursor: pointer;
+ 
+ }
+ .prod div:hover{
+    transform: scale(1.5);
+    border-radius: 75px;
+ 
+ }
+ .prod div img{
+    height: 150px;
+    width: auto;
+ }   
