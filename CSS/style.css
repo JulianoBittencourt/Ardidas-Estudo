@@ -1,31 +1,44 @@
-
-header{
-   height:100px;
-}
-.navbar{
+/* NAVBAR GERAL */
+.navbar {
    padding: 10px;
    height: 100%;
    width: 100%;
-      background: linear-gradient(to right,RED,
-    ORANGE
-    ,
-    YELLOW
-    ,
-    GREEN);
-    display: flex;
-    justify-content: space-between;
-}
-h1{
-   color: white;
-   font-size: x-large;
+   background: linear-gradient(to right, RED,ORANGE, YELLOW, GREEN);
+   display: flex;
+   justify-content: space-between;
+   position: fixed;
+   top: 0%;
+   width: 100%;
+   height: 64px;
+   display: flex;
+   justify-content: space-between;
 }
 .navbar div{
+   height: 100%;
    padding: 10px;
-   width: 70%;
-   
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
 }
-.icones{
-   width: 55px;
+.navbar img{
+   height: 50px;
+}
+
+/* SELECAO DE PRODUTO */
+
+.section-selecao{
+   margin-top: 70px;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+   justify-content: space-between;  
+ 
+
+}
+.section-selecao div{
+   height: 150px;
+   width: 150px;
+   border:1px solid red;
 
 }
