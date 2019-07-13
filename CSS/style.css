@@ -34,10 +34,19 @@
 
 
 /* SELECAO DE PRODUTO */
+.variavel {
+   padding: 5px;
+}
+
 .section-selecao {
+
    margin-top: 70px;
    padding: 20px;
 
+}
+
+.type-massa {
+   padding:5px;
 }
 
 .section-selecao div div {
@@ -54,20 +63,46 @@
    border-radius: 10px;
 
 }
-.typeP{
+
+.typeP {
    padding: 20px;
 }
 
 .type {
-   font-size: 10pt;
+   font-size: 20pt;
    display: flex;
    justify-content: space-between;
-   padding: 20px;
+   padding: 10px;
    border-radius: 5px;
 }
+
 .type input {
    height: 32px;
    width: 32px;
    background: url(../img/plus-symbol-in-a-rounded-black-square.png) no-repeat right top;
-   
+
+}
+
+/* MENU */
+#menu {
+   display: none;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+
+}
+
+#menu .abaMenu {
+   width: 80%;
+   height: 100%;
+   background-color: white;
+
+}
+
+#menu .foraMenu {
+   width: 20%;
+   height: 100%;
+   background-color: black;
+   opacity: 0.4;
+
 }
