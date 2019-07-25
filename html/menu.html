@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/Controller/MenuControler.js"></script>
+    <script src="../js/Service/MenuService.js"></script>
+    <title>Ardidas</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="../img/chili-pepper.svg" alt="Logo da Empresa" onclick="openDrawer()">
+            <h1>Ardidas</h1>
+            <img src="../img/mexican.svg" alt="">
+        </nav>
+    </header>
+    <section class="section-menu">
+        <div>
+            <a href="selecaoProduto.html">
+                <img src="../img/240_F_62241913_Owqi390TuSOGvFzdNu6U0CE0k5asVpOj.jpg" alt="FAça sua Tortilha">
+            </a>
+        </div>
+        <div>
+            <a href="predefinidas.html">
+                <img src="../img/alimento-almoco-burrito-461198.jpg" alt="Tortinhas Prontas">
+            </a>
+        </div>
+    </section>
+
+    <div class="drawer">
+        <div class="drawer-menu">
+            <div class="drawer-menu-close">
+                <img src="img/close.svg" alt="" onclick="closeDrawer()">
+            </div>
+            <div class='drawer-title'>
+                Ardidas
+            </div>
+            <div class="menu-itens">
+                <a href="carrinho.html">
+                    <div>Carrinho</div>
+                </a>
+                <a href="CadastroProduto.html">
+                    <div>Cadastro de Produto</div>
+                </a>
+                </a>
+                <a href="pedidosPendentes.html">
+                    <div>Pedidos Pendentes</div>
+                </a>
+                </a>
+                <a href="Pedidos.html">
+                    <div>Pedidos</div>
+                </a>
+            </div>
+        </div>
+        <div class="drawer-close" onclick="closeDrawer()"></div>
+    </div>
+</body>
+
+</html>
